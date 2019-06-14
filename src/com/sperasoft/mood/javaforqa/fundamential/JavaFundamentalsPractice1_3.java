@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 
 public class JavaFundamentalsPractice1_3 {
+    // TODO extends JavaFundamentialPractice1_2 to write less code
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите первое число: ");
