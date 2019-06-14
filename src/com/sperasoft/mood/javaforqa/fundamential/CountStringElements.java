@@ -19,7 +19,7 @@ public class CountStringElements extends Exception {
 
         int summ = 0;
         char[] a = text.toCharArray();
-        for (int i = 0; i < a.length; i++) {
+        for (int i = 0; i < a.length; i++) 
             if (a[i] == c) {
                 summ++;
 
@@ -29,5 +29,5 @@ public class CountStringElements extends Exception {
 
         }
     }
-}
+
 
