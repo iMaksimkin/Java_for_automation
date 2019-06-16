@@ -3,8 +3,8 @@ package com.sperasoft.mood.javaforqa.fundamential;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
-public class CountStringElements extends Exception {
+// TODO: write the class that will caght   InputMismatchException 
+public class CountStringElements {
 
 
     public static void main(String[] args) throws InputMismatchException {
