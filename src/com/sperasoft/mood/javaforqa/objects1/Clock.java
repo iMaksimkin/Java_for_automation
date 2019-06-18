@@ -111,7 +111,19 @@ public class Clock {
         return new Clock(clock.hours +this.hours , this.minutes  + clock.minutes, this.seconds + clock.seconds  );
 
     }
+/**
+if (seconds > 59) {
+            minutes++;}
 
+
+        if (minutes>59){
+            hours ++;}
+
+        if (hours > 24){
+            hours = hours - 24;
+        }
+    }
+    */
     public Clock substrackClock(Clock clock) {
         return new Clock(this.hours - clock.hours , this.minutes - clock.minutes, this.seconds - clock.seconds);
 
