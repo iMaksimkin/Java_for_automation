@@ -32,7 +32,7 @@ public class DogsDemo {
             if (dog.getName().trim().isEmpty()) {
                 dog.setName(dog.generateName());
             } else dog.getName();
-            System.out.println("Введите сколько лет собаке от 1 до 20 или размер сгенерируется автоматически: ");
+            System.out.println("Введите сколько лет собаке от 1 до 20(выйдя за пределы возраст будет сгенерирован автоматически): ");
             dog.setAge(in.nextInt());
             //  dog.setAge(br.read()) it skip nextline and i can't reset System.in
 
@@ -45,7 +45,7 @@ public class DogsDemo {
             System.out.println("Выберете размер: BIG MEDIUM SMALL или размер сгенерируется автоматически");
             String dogSize = br.readLine();
             if (dogSize.equals("BIG") || dogSize.equals("SMALL") || dogSize.equals("MEDIUM")) {
-                dogSize = br.readLine();
+                br.readLine();
             } else {
                 dogSize = Dog.generateSize();
             }
