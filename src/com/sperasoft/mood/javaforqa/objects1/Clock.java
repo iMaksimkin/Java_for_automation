@@ -113,8 +113,7 @@ public class Clock {
     }
 
     public Clock substrackClock(Clock clock) {
-        return new Clock(clock.getSeconds() + clock.getHours() * 60 * 60 + clock.getMinutes() * 60 -
-                this.seconds - this.hours * 60 * 60 - this.minutes * 60);
+        return new Clock(this.hours - clock.hours , this.minutes - clock.minutes, this.seconds - clock.seconds);
 
     }
 }
