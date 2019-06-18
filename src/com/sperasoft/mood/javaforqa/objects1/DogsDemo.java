@@ -33,7 +33,7 @@ public class DogsDemo {
                 dog.setName(dog.generateName());
             } else dog.getName();
             System.out.println("Введите сколько лет собаке от 1 до 20 или размер сгенерируется автоматически: ");
-            dog.setAge(br.read());
+            dog.setAge(in.nextInt());
             //  dog.setAge(br.read()) it skip nextline and i can't reset System.in
 
             if (dog.getAge() != 0) {
