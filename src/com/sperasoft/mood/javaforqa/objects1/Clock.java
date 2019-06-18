@@ -108,7 +108,7 @@ public class Clock {
 
 
     public Clock addClock(Clock clock) {
-        return new Clock(this.seconds + this.minutes + this.hours + clock.getSeconds() + seconds + minutes * 60 + clock.hours * 60 * 60);
+        return new Clock(clock.hours +this.hours , this.minutes  + clock.minutes, this.seconds + clock.seconds  );
 
     }
 
