@@ -28,8 +28,9 @@ public class ClockDemo {
 
         System.out.println("Сколько раз тикать?");
         int amountTicks= in.nextInt();
+        System.out.println("Первые часики тикают");
         firstClock.tick(amountTicks);
-
+        System.out.println("Вторые часики тикают");
         secondClock.tick(amountTicks);
 
       firstClock.addClock(secondClock).print();
