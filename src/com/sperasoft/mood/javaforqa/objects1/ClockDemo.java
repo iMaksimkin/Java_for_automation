@@ -26,17 +26,25 @@ public class ClockDemo {
         secondClock.print();
 
 
-        System.out.println("Сколько раз тикать?");
+        System.out.println("Сколько раз тикать вперед?");
         int amountTicks= in.nextInt();
-        System.out.println("Первые часики тикают");
+        System.out.println("Первые часы тикают");
         firstClock.tick(amountTicks);
-        System.out.println("Вторые часики тикают");
+        System.out.println("Вторые часы тикают");
         secondClock.tick(amountTicks);
 
+        System.out.println("Сколько раз тикать назад?");
+        int amountTicks1= in.nextInt();
+        System.out.println("Первые часы тикают");
+        firstClock.tickDown(amountTicks1);
+        System.out.println("Вторые часы тикают");
+        secondClock.tick(amountTicks1);
+        System.out.println("адд клок");
       firstClock.addClock(secondClock).print();
 
       //  secondClock.toString();
      //   firstClock.toString();
+        System.out.println("сабстрэк клок");
        firstClock.substrackClock(secondClock).print();
 
 

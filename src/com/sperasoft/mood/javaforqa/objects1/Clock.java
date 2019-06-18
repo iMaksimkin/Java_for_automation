@@ -71,10 +71,10 @@ public class Clock {
         }
     }
 
-    public void tickDown(int amountTicks) {
+    public void tickDown(int amountTicks1) {
 
 
-        for (int i = 1; i < amountTicks; i++) {
+        for (int i = 1; i < amountTicks1; i++) {
             seconds--;
             System.out.println("Tick: " + hours + ":" + minutes + ":" + seconds + "\n");
         }
