@@ -57,13 +57,21 @@ public class Math1 {
 
         return result;
     }
-    public int pow(int base, int n){
 
-                if( n == 0)
-                return 1;
-                if
+    public int pow(int base, int n) {
+
+        if (n == 0)
+            return 1;
+        if
                 (n == 1) return base;
-                else return (base*(pow(base,n-1)));}
+        if (n < 0) {
+            int num = 1;
+            for (int i = 1; i < -n; i++) {
+                num /= n;
+            }
+            return num;
+        } else return (base * (pow(base, n - 1)));
+    }
 
  /*   public static int pow(int base, int exponent) {
         int r = 1;
@@ -72,9 +80,20 @@ public class Math1 {
     } */
 
 
-   public static double pow(double base, int exponent) {
-      double r = 1.0;
-    for (int i = 0; i < exponent; i++) r *= base;
-        return r;
-  }
+    public static double pow(double base, int n) {
+        if (n == 0)
+            return 1;
+        if
+                (n == 1) return base;
+        if (n < 0) {
+            double num = 1;
+            for (int i = 1; i < -n; i++) {
+                num /= n;
+            }
+            return num;
+        } else return (base * (pow(base, n - 1)));
+    }
+
 }
+
+

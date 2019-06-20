@@ -44,14 +44,13 @@ public class MathDemo {
 
         System.out.println("Next=" + String.format("%.2f", math.nextAfter(array1, 22.5)));
 
-      //  System.out.println("Enter the number: ");
-       // int n1 = in.nextInt();
-       // System.out.println("Enter the power u want raised: ");
-      //  int n2 = in.nextInt();
+     //   System.out.println("Enter the number: ");
+     //  int n1 = in.nextInt();
+    //    System.out.println("Enter the power u want raised: ");
+     //  int n2 = in.nextInt();
 
-
-        System.out.println("Pow = " + Math.pow(5,4));
-        System.out.println("Pow = " + String.format("%.2f", math.pow(1.5,20)));
+        System.out.println("Pow = " + Math.pow(5, 4));
+        System.out.println("Pow = " + String.format("%.2f", math.pow(1.5,-3)));
 
     }
 }
