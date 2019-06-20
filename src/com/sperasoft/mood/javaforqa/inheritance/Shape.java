@@ -40,6 +40,6 @@ public abstract class Shape {
     public String toString() {
         return "shape" +
                 "\ncolour: " + colour +
-                "\nfilled: " + filled;
+                " filled: " + filled;
     }
 }

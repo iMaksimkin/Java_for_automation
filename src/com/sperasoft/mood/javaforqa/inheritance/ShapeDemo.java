@@ -9,7 +9,7 @@ public class ShapeDemo {
         Shape square = new Square("Purple", true, 6.0);
 
 
-        Shape[] shapes = {circle, rectangle};
+        Shape[] shapes = {circle, rectangle,square};
 
         for (Shape shape : shapes) {
             System.out.println(shape.toString());

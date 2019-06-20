@@ -45,7 +45,7 @@ public class Circle1 extends Shape {
     @Override
     public String toString() {
         return "Circle " + " is a subclass of " + super.toString() +
-                "\nradius=" + radius;
+                " radius=" + radius;
     }
 }
 

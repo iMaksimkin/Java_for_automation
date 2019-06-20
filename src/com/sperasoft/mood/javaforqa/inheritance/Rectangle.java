@@ -21,9 +21,7 @@ public class Rectangle extends Shape {
         this.length = length;
     }
 
-    public Rectangle(String colour, boolean filled) {
-        super(colour, filled);
-    }
+
 
     public double getWidth() {
         return width;
@@ -47,9 +45,9 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
-        return "Rectangle is a subclass of " + super.toString() +
-                "\n width=" + width +
-                "\n length=" + length;
+        return "Rectangle which is a subclass of " + super.toString() +
+                " width=" + width +
+                " length=" + length;
     }
 
 }
