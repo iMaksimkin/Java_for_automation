@@ -1,77 +1,3 @@
-<<<<<<< 092f7de4c8ac4792505cbba5be27b5f3c02b5b4e:src/com/sperasoft/mood/javaforqa/task1/fundamential/ArraySort.java
-=======
-<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/fundamential/ArraySort.java
-<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/fundamential/ArraySort.java
-<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/fundamential/ArraySort.java
-package com.sperasoft.mood.javaforqa.fundamential;
-=======
-package com.sperasoft.mood.javaforqa.task1.fundamential;
->>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task1/fundamential/ArraySort.java
-=======
-package com.sperasoft.mood.javaforqa.task1.fundamential;
->>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task1/fundamential/ArraySort.java
-
-import java.util.Scanner;
-
-public class ArraySort {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter the size of array ");
-        int size = in.nextInt();
-        int[] arr = new int[size];
-        for (int i = 0; i < size; i++) {
-            arr[i] = (int) (Math.random() * 100);
-            System.out.print(arr[i] + " ");
-
-        }
-
-
-        System.out.println("\n" + "Bubble Sort");
-        bubbleSort(arr);
-        System.out.println("\n" + "Insertion sort");
-        insertionSort(arr);
-    }
-
-    //Bubble Sort
-    public static void bubbleSort(int[] arr) {
-        int tmp;
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 1; j < (arr.length - i); j++) {
-                if (arr[j - 1] > arr[j]) {
-                    tmp = arr[j - 1];
-                    arr[j - 1] = arr[j];
-                    arr[j] = tmp;
-                }
-            }
-        }
-
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-
-        }
-    }
-
-    //Insertion sort
-    public static void insertionSort(int[] arr) {
-
-
-        for (int i = 1; i < arr.length; i++) {
-            int tmp = arr[i];
-            int j;
-            for (j = i - 1; j >= 0 && arr[j] > tmp; j--) {
-                arr[j + 1] = arr[j];
-            }
-            arr[j + 1] = tmp;
-        }
-
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-    }
-}
-
-=======
->>>>>>> updating project structure and some classes:src/com/sperasoft/mood/javaforqa/fundamential/ArraySort.java
 package com.sperasoft.mood.javaforqa.task1.fundamential;
 
 import java.util.Scanner;
@@ -133,8 +59,4 @@ public class ArraySort {
     }
 }
 
-<<<<<<< 092f7de4c8ac4792505cbba5be27b5f3c02b5b4e:src/com/sperasoft/mood/javaforqa/task1/fundamential/ArraySort.java
-=======
->>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task1/fundamential/ArraySort.java
->>>>>>> updating project structure and some classes:src/com/sperasoft/mood/javaforqa/fundamential/ArraySort.java
 //
