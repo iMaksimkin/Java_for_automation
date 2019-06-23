@@ -1,7 +1,11 @@
 <<<<<<< 092f7de4c8ac4792505cbba5be27b5f3c02b5b4e:src/com/sperasoft/mood/javaforqa/task2/objects1/DogsDemo.java
 =======
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/DogsDemo.java
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/DogsDemo.java
 package com.sperasoft.mood.javaforqa.objects1;
+=======
+package com.sperasoft.mood.javaforqa.task2.objects1;
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task2/objects1/DogsDemo.java
 
 
 import java.io.BufferedReader;

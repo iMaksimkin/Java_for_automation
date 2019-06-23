@@ -46,9 +46,12 @@ public class Circle1 extends Shape {
 
     public double getArea() {
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/CircleShape.java
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/CircleShape.java
 
         return PI * this.radius * radius;
 =======
+=======
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task3And4/inheritance/CircleShape.java
         return CustomMathUtil.PI * CustomMathUtil.pow(this.radius,2);
     }
 //    public boolean isInside(double x, double y) {

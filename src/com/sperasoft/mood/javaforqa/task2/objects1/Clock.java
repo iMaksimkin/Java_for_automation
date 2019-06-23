@@ -1,10 +1,19 @@
 <<<<<<< 092f7de4c8ac4792505cbba5be27b5f3c02b5b4e:src/com/sperasoft/mood/javaforqa/task2/objects1/Clock.java
 =======
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/Clock.java
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/Clock.java
 package com.sperasoft.mood.javaforqa.objects1;
+=======
+package com.sperasoft.mood.javaforqa.task2.objects1;
+
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task2/objects1/Clock.java
 
 
 public class Clock {
+
+    private static final int HOUSR = 24;
+    private static final int MINUTES = 60;
+    private static final int SECONDS = 60;
 
     private int hours = 0;
     private int minutes = 0;
@@ -48,15 +57,20 @@ public class Clock {
     }
 
     private void setSinceMidnight(int seconds) {
+       // if (seconds < 0 || seconds > 59) {
+       //     this.seconds = 0;
+      // } else {
+       //     this.seconds = seconds;
+       // }
         this.seconds = seconds;
         if (this.seconds > 59) {
-            this.minutes = this.seconds / 60;
-            this.seconds = this.seconds % 60;
+            this.minutes = this.seconds / SECONDS;
+            this.seconds = this.seconds % SECONDS;
             if (minutes > 59) {
-                this.hours = minutes / 60;
-                this.minutes = minutes % 60;
+                this.hours = minutes / MINUTES;
+                this.minutes = minutes % MINUTES;
                 if (hours > 23) {
-                    hours = hours % 24;
+                    hours = hours % HOUSR;
                 }
             }
         }
@@ -77,7 +91,7 @@ public class Clock {
     public void tickDown(int amountTicks1) {
 
 
-        for (int i = 1; i < amountTicks1; i++) {
+        for (int i = 1; i < amountTicks1+1; i++) {
             seconds--;
             System.out.println("Tick: " + hours + ":" + minutes + ":" + seconds + "\n");
         }
@@ -111,7 +125,8 @@ public class Clock {
 
 
     public Clock addClock(Clock clock) {
-        return new Clock(clock.hours +this.hours , this.minutes  + clock.minutes, this.seconds + clock.seconds  );
+        return new Clock(Math.abs(clock.getSeconds() + clock.getHours() *MINUTES * SECONDS + clock.getMinutes() * SECONDS +
+                this.seconds + this.hours * MINUTES * SECONDS + this.minutes * SECONDS));
 
     }
 /**
@@ -128,6 +143,7 @@ if (seconds > 59) {
     }
     */
     public Clock substrackClock(Clock clock) {
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/Clock.java
         return new Clock(this.hours - clock.hours , this.minutes - clock.minutes, this.seconds - clock.seconds);
 
     }
@@ -275,6 +291,8 @@ if (seconds > 59) {
     }
     */
     public Clock substrackClock(Clock clock) {
+=======
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task2/objects1/Clock.java
         return new Clock(Math.abs(clock.getSeconds() + clock.getHours() *MINUTES * SECONDS + clock.getMinutes() *SECONDS -
                 this.seconds - this.hours *MINUTES * SECONDS - this.minutes * SECONDS));
      //   Math.abs(clock.getSeconds() + clock.getHours() *60  *60 + clock.getMinutes() * 60 -

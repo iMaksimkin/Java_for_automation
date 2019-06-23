@@ -1,14 +1,18 @@
 <<<<<<< 092f7de4c8ac4792505cbba5be27b5f3c02b5b4e:src/com/sperasoft/mood/javaforqa/task1/fundamential/ArraySort.java
 =======
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/fundamential/ArraySort.java
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/fundamential/ArraySort.java
 package com.sperasoft.mood.javaforqa.fundamential;
+=======
+package com.sperasoft.mood.javaforqa.task1.fundamential;
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task1/fundamential/ArraySort.java
 
 import java.util.Scanner;
 
 public class ArraySort {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Введите размер массива: ");
+        System.out.println("Enter the size of array ");
         int size = in.nextInt();
         int[] arr = new int[size];
         for (int i = 0; i < size; i++) {
