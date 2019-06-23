@@ -1,4 +1,4 @@
-package com.sperasoft.mood.javaforqa.fundamential;
+package com.sperasoft.mood.javaforqa.task1.fundamential;
 
 import java.util.Scanner;
 

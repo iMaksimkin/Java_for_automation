@@ -1,4 +1,4 @@
-package com.sperasoft.mood.javaforqa.fundamential;
+package com.sperasoft.mood.javaforqa.task1.fundamential;
 
 
 import java.util.InputMismatchException;
@@ -10,7 +10,7 @@ public class CountStringElements {
     public static void main(String[] args) throws InputMismatchException {
         String text = "some text";
         Scanner in = new Scanner(System.in);
-        System.out.println("Введите символ: ");
+        System.out.println("enter the symbol: ");
         // String str = in.next();
         // char a = str.charAt(str.length()-1);
 
@@ -25,7 +25,7 @@ public class CountStringElements {
 
 
             }
-            System.out.println("в тексте символов " + c + ": " + summ);
+            System.out.println("symbols in text " + c + ": " + summ);
 
         }
     }

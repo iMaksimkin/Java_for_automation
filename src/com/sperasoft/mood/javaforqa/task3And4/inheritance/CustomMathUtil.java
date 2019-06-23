@@ -1,6 +1,6 @@
 package com.sperasoft.mood.javaforqa.task3And4.inheritance;
 
-public class Math1 {
+public class CustomMathUtil {
 
     public static final double PI = 3.14;
 

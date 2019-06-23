@@ -1,4 +1,4 @@
-package com.sperasoft.mood.javaforqa.Task3.inheritance;
+package com.sperasoft.mood.javaforqa.task3And4.inheritance;
 
 public class Circle  {
 //with using enum
@@ -66,7 +66,7 @@ public class Circle  {
 
     public double getArea() {
 
-        return Math1.PI * Math1.pow(this.radius,2);
+        return CustomMathUtil.PI * CustomMathUtil.pow(this.radius,2);
     }
 
     @Override

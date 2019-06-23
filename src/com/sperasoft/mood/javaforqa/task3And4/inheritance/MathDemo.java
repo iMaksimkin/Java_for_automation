@@ -1,4 +1,4 @@
-package com.sperasoft.mood.javaforqa.Task3.inheritance;
+package com.sperasoft.mood.javaforqa.task3And4.inheritance;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -29,7 +29,7 @@ public class MathDemo {
         }
 
 
-        Math1 math = new Math1();
+        CustomMathUtil math = new CustomMathUtil();
 
 
         System.out.println("\nMin=" + math.min(array));

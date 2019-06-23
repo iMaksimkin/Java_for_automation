@@ -1,4 +1,4 @@
-package com.sperasoft.mood.javaforqa.Task3.inheritance;
+package com.sperasoft.mood.javaforqa.task3And4.inheritance;
 
 public abstract class Shape {
 // do we need create inteface with methods getPerimetr and getArea

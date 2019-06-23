@@ -1,10 +1,10 @@
 package com.sperasoft.mood.javaforqa.task3And4.inheritance;
 
-public class Rectangle extends Shape {
+public class RectangleShape extends Shape {
     protected double width;
     protected double length;
 
-    public Rectangle() {
+    public RectangleShape() {
         super();
         double width = 1.0;
         double length = 1.0;
@@ -25,12 +25,12 @@ public class Rectangle extends Shape {
         return x < (width / 2) && y < (length / 2);
 }
 
-    public Rectangle(double width, double length) {
+    public RectangleShape(double width, double length) {
         this.width = width;
         this.length = length;
     }
 
-    public Rectangle(String colour, boolean filled, double width, double length) {
+    public RectangleShape(String colour, boolean filled, double width, double length) {
         super(colour, filled);
         this.width = width;
         this.length = length;

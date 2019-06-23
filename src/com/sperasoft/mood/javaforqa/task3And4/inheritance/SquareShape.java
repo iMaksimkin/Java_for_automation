@@ -1,17 +1,17 @@
 package com.sperasoft.mood.javaforqa.task3And4.inheritance;
 
-public class Square extends Rectangle {
+public class SquareShape extends RectangleShape {
 
-    public Square() {
+    public SquareShape() {
         super();
     }
 
-    public Square(double side) {
+    public SquareShape(double side) {
         this.width = side;
         this.length = side;
     }
 
-    public Square(String colour, boolean filled, double side) {
+    public SquareShape(String colour, boolean filled, double side) {
         super(colour, filled, side, side);
     }
     @Override

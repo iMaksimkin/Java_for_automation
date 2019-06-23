@@ -1,4 +1,4 @@
-package com.sperasoft.mood.javaforqa.Task3.inheritance;
+package com.sperasoft.mood.javaforqa.task3And4.inheritance;
 
 public class Cylinder extends Circle {
 
@@ -28,7 +28,7 @@ public class Cylinder extends Circle {
 
     @Override
     public double getArea() {
-        return 2 * Math1.PI * getRadius() * height + 2 * super.getArea();
+        return 2 * CustomMathUtil.PI * getRadius() * height + 2 * super.getArea();
     }
 
     @Override

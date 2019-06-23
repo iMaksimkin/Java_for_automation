@@ -1,4 +1,4 @@
-package com.sperasoft.mood.javaforqa.objects1;
+package com.sperasoft.mood.javaforqa.task2.objects1;
 
 
 public class BookDemo {
