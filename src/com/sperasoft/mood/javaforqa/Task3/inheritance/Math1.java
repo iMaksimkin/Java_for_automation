@@ -1,6 +1,6 @@
 package com.sperasoft.mood.javaforqa.inheritance;
 
-public class Math1 {
+public class CustomMathUtil {
 
 
     public static int min(int[] array) {

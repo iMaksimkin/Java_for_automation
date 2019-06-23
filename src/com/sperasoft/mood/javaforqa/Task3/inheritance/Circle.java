@@ -1,6 +1,10 @@
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/Circle.java
 package com.sperasoft.mood.javaforqa.inheritance;
 
 public class Circle extends Shape {
+=======
+package com.sperasoft.mood.javaforqa.task3And4.inheritance;
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Circle.java
 
     public enum Colour {
         GREEN {
@@ -64,7 +68,11 @@ public class Circle extends Shape {
 
     public double getArea() {
 
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/Circle.java
         return PI * radius * radius;
+=======
+        return CustomMathUtil.PI * CustomMathUtil.pow(this.radius,2);
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Circle.java
     }
 
     @Override

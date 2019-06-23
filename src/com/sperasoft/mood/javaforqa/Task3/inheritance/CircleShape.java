@@ -1,4 +1,4 @@
-package com.sperasoft.mood.javaforqa.Task3.inheritance;
+package com.sperasoft.mood.javaforqa.task3And4.inheritance;
 
 
 public class Circle1 extends Shape {
@@ -36,10 +36,31 @@ public class Circle1 extends Shape {
 
     }
 
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/CircleShape.java
+=======
+    @Override
+    public double getPerimetr() {
+       return CustomMathUtil.PI*2*this.radius;
+    }
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task3And4/inheritance/CircleShape.java
 
     public double getArea() {
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/CircleShape.java
 
         return PI * this.radius * radius;
+=======
+        return CustomMathUtil.PI * CustomMathUtil.pow(this.radius,2);
+    }
+//    public boolean isInside(double x, double y) {
+//        return Math.abs(x) < radius && Math.abs(y) < radius;
+//       // return x < radius && y < radius;
+//    }
+    @Override
+    public boolean isInside(double x, double y) {
+        if (Math.sqrt(x*x+y*y) < radius)
+            return true;
+        return false;
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task3And4/inheritance/CircleShape.java
     }
 
     @Override

@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/Cylinder.java
 package com.sperasoft.mood.javaforqa.inheritance;
+=======
+package com.sperasoft.mood.javaforqa.task3And4.inheritance;
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Cylinder.java
 
 public class Cylinder extends Circle {
 
@@ -28,7 +32,11 @@ public class Cylinder extends Circle {
 
     @Override
     public double getArea() {
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/Cylinder.java
         return 2 * PI * getRadius() * height + 2 * super.getArea();
+=======
+        return 2 * CustomMathUtil.PI * getRadius() * height + 2 * super.getArea();
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Cylinder.java
     }
 
     @Override
