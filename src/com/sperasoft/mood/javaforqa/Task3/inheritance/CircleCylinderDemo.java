@@ -1,6 +1,10 @@
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/CircleCylinderDemo.java
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/CircleCylinderDemo.java
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/CircleCylinderDemo.java
 package com.sperasoft.mood.javaforqa.inheritance;
+=======
+package com.sperasoft.mood.javaforqa.task3And4.inheritance;
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task3And4/inheritance/CircleCylinderDemo.java
 =======
 package com.sperasoft.mood.javaforqa.task3And4.inheritance;
 >>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task3And4/inheritance/CircleCylinderDemo.java

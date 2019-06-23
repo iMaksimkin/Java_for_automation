@@ -2,6 +2,7 @@
 =======
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/Book.java
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/Book.java
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/Book.java
 package com.sperasoft.mood.javaforqa.objects1;
 =======
 package com.sperasoft.mood.javaforqa.task2.objects1;
@@ -40,7 +41,12 @@ class Book {
 
 
 =======
+<<<<<<< 092f7de4c8ac4792505cbba5be27b5f3c02b5b4e:src/com/sperasoft/mood/javaforqa/task2/objects1/Book.java
 >>>>>>> updating project structure and some classes:src/com/sperasoft/mood/javaforqa/objects1/Book.java
+=======
+=======
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task2/objects1/Book.java
+>>>>>>> Auto stash before merge of "dev" and "original/dev":src/com/sperasoft/mood/javaforqa/objects1/Book.java
 package com.sperasoft.mood.javaforqa.task2.objects1;
 
 class Book {

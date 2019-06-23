@@ -1,6 +1,10 @@
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/MathDemo.java
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/MathDemo.java
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/MathDemo.java
 package com.sperasoft.mood.javaforqa.inheritance;
+=======
+package com.sperasoft.mood.javaforqa.task3And4.inheritance;
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task3And4/inheritance/MathDemo.java
 =======
 package com.sperasoft.mood.javaforqa.task3And4.inheritance;
 >>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task3And4/inheritance/MathDemo.java

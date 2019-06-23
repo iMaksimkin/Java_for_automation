@@ -2,7 +2,11 @@
 =======
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/fundamential/ArraySort.java
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/fundamential/ArraySort.java
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/fundamential/ArraySort.java
 package com.sperasoft.mood.javaforqa.fundamential;
+=======
+package com.sperasoft.mood.javaforqa.task1.fundamential;
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task1/fundamential/ArraySort.java
 =======
 package com.sperasoft.mood.javaforqa.task1.fundamential;
 >>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task1/fundamential/ArraySort.java

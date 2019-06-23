@@ -2,7 +2,11 @@
 =======
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/Author.java
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/Author.java
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/Author.java
 package com.sperasoft.mood.javaforqa.objects1;
+=======
+package com.sperasoft.mood.javaforqa.task2.objects1;
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task2/objects1/Author.java
 =======
 package com.sperasoft.mood.javaforqa.task2.objects1;
 >>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task2/objects1/Author.java

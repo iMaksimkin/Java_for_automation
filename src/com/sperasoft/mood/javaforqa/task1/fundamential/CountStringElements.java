@@ -2,7 +2,11 @@
 =======
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/fundamential/CountStringElements.java
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/fundamential/CountStringElements.java
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/fundamential/CountStringElements.java
 package com.sperasoft.mood.javaforqa.fundamential;
+=======
+package com.sperasoft.mood.javaforqa.task1.fundamential;
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task1/fundamential/CountStringElements.java
 =======
 package com.sperasoft.mood.javaforqa.task1.fundamential;
 >>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task1/fundamential/CountStringElements.java

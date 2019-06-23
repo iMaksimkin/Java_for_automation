@@ -2,6 +2,7 @@
 =======
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/Clock.java
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/Clock.java
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/Clock.java
 package com.sperasoft.mood.javaforqa.objects1;
 =======
 package com.sperasoft.mood.javaforqa.task2.objects1;
@@ -152,7 +153,12 @@ if (seconds > 59) {
 
 
 =======
+<<<<<<< 092f7de4c8ac4792505cbba5be27b5f3c02b5b4e:src/com/sperasoft/mood/javaforqa/task2/objects1/Clock.java
 >>>>>>> updating project structure and some classes:src/com/sperasoft/mood/javaforqa/objects1/Clock.java
+=======
+=======
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task2/objects1/Clock.java
+>>>>>>> Auto stash before merge of "dev" and "original/dev":src/com/sperasoft/mood/javaforqa/objects1/Clock.java
 package com.sperasoft.mood.javaforqa.task2.objects1;
 
 
@@ -291,6 +297,9 @@ if (seconds > 59) {
     }
     */
     public Clock substrackClock(Clock clock) {
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/objects1/Clock.java
+=======
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task2/objects1/Clock.java
 =======
 >>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task2/objects1/Clock.java
         return new Clock(Math.abs(clock.getSeconds() + clock.getHours() *MINUTES * SECONDS + clock.getMinutes() *SECONDS -

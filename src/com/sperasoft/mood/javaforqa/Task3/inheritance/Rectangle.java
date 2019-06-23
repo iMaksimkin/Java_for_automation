@@ -30,6 +30,9 @@ public class RectangleShape extends Shape {
 
     public RectangleShape(double width, double length) {
 <<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/Rectangle.java
+<<<<<<< Updated upstream:src/com/sperasoft/mood/javaforqa/Task3/inheritance/Rectangle.java
+>>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task3And4/inheritance/RectangleShape.java
+=======
 >>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task3And4/inheritance/RectangleShape.java
 =======
 >>>>>>> Stashed changes:src/com/sperasoft/mood/javaforqa/task3And4/inheritance/RectangleShape.java
