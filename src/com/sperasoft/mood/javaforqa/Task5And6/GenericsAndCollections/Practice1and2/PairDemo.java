@@ -26,9 +26,9 @@ public class PairDemo {
         String str2 = new String("square");
         String str3 = new String("rectangle");
 
-        System.out.println("First string" + str1);
-        System.out.println("2nd string" + str2);
-        System.out.println("3rd string" + str3);
+        System.out.println("First string " + str1);
+        System.out.println("2nd string " + str2);
+        System.out.println("3rd string " + str3);
 
         System.out.println("Comparing 1st string and 2nd " + Pair.compare(str1, str2));
         System.out.println("Comparing 1st string and 3rd " + Pair.compare(str1, str3));
