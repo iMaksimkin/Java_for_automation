@@ -32,7 +32,7 @@ public class PairDemo {
 
         System.out.println("Comparing 1st string and 2nd " + secondObjectsPair.compare(str1, str2));
         System.out.println("Comparing 1st string and 3rd " + secondObjectsPair.compare(str1, str3));
-        Pair<Circle, Circle> thirdObjectsPair = new Pair<>();
+   //     Pair<Circle, Circle> thirdObjectsPair = new Pair<>();
 
 //        Shape rectangle = new RectangleShape("BLUE", true, 4, 4);
 //        Shape square = new SquareShape("Blue", true, 4);
