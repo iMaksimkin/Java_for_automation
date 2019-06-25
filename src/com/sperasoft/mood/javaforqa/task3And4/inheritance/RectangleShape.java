@@ -4,10 +4,24 @@ public class RectangleShape extends Shape {
     protected double width;
     protected double length;
 
+    public RectangleShape(String colour) {
+        super(colour);
+    }
+
     public RectangleShape() {
         super();
         double width = 1.0;
         double length = 1.0;
+    }
+
+    public RectangleShape(String colour, boolean filled) {
+        super(colour, filled);
+    }
+
+    public RectangleShape(String colour, double width, double length) {
+        super(colour);
+        this.width = width;
+        this.length = length;
     }
 
     @Override
