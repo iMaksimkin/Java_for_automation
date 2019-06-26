@@ -20,7 +20,11 @@ public class PairDemo {
 
         System.out.println(name + " " + rectangleShape);
 
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 8ca6767a27a070bf3c7f58104491afd5475db1a7
 
         String str1 = new String("square");
         String str2 = new String("square");
@@ -32,6 +36,12 @@ public class PairDemo {
 
         System.out.println("Comparing 1st string and 2nd " + Pair.compare(str1, str2));
         System.out.println("Comparing 1st string and 3rd " + Pair.compare(str1, str3));
+<<<<<<< HEAD
 
     }
 }
+=======
+   
+}
+}
+>>>>>>> 8ca6767a27a070bf3c7f58104491afd5475db1a7
