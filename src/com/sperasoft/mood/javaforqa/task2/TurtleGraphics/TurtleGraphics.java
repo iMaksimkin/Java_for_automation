@@ -1,4 +1,4 @@
-package com.sperasoft.mood.javaforqa.TurtleGraphics;
+package com.sperasoft.mood.javaforqa.task2.TurtleGraphics;
 
 
 import jdk.nashorn.internal.objects.annotations.Getter;
@@ -70,7 +70,7 @@ public class TurtleGraphics {
         //   this.board = new char[width][height];
         if (width > 0 && height > 0) this.board = new char[width + 1][height];
         else System.out.println("incoorect size! ");
-        if (x >= 0 && y >= 0) this.penPosition = new Position(x, y);
+        if (x >= 0 && y >= 0 ) this.penPosition = new Position(x, y);
         else System.out.println("incoorect position! ");
         clearBoard();
         board[this.penPosition.getX()][this.penPosition.getY()] = penChar;
@@ -78,9 +78,9 @@ public class TurtleGraphics {
 
 
     public void showBoard() {
-        for (char[] chars : board) {
-            for (char Char : chars) {
-                System.out.print(Char + " ");
+        for (int j = 0; j < board[0].length; j++) {
+            for (int i = 0; i < board.length; i++) {
+                System.out.print(board[i][j] + " ");
             }
             System.out.println();
         }
@@ -90,9 +90,51 @@ public class TurtleGraphics {
 
 
     public void movePenUp(int length) {
+        if (penPosition.getY()-length<0)
+        {
+            penPosition.setY(penPosition.getY());
+            System.out.println("The value is not valid. Try Again!");
 
-        if (penPosition.getX() > board[0].length) {
-            penPosition.setX(0);
+        } else
+
+
+            for (int i = 0; i < length; i++) {
+
+
+                board[penPosition.getX()][penPosition.getY()] = colouredCellChar;
+
+                penPosition.setY((penPosition.getY() - 1));
+                board[this.penPosition.getX()][this.penPosition.getY()] = penChar;
+
+            }
+
+        //  setPenPosition(new Position(penPosition.getX(), penPosition.getY()));
+    }
+
+    public void movePenDown(int length) {
+
+     if   (length+penPosition.getY()>=board[0].length+1)
+        {
+            penPosition.setY(length+board[0].length);
+            System.out.println("The value is not valid. Try Again!");
+
+        } else
+            for (int i = 0; i < length; i++) {
+                board[penPosition.getX()][penPosition.getY()] = colouredCellChar;
+
+                penPosition.setY(penPosition.getY() + 1);
+                board[this.penPosition.getX()][this.penPosition.getY()] = penChar;
+            }
+
+
+    }
+
+    public void movePenLeft(int length) {
+        if (penPosition.getX()-length<=0)
+        {
+            penPosition.setX(penPosition.getX());
+            System.out.println("The value is not valid. Try Again!");
+
         } else
             for (int i = 0; i < length; i++) {
 
@@ -102,13 +144,16 @@ public class TurtleGraphics {
                 board[this.penPosition.getX()][this.penPosition.getY()] = penChar;
             }
 
-        //  setPenPosition(new Position(penPosition.getX(), penPosition.getY()));
+
     }
 
-    public void movePenDown(int length) {
+    public void movePenRight(int length) {
 
-        if (penPosition.getX() > board[0].length) {
-            penPosition.setX(0);
+        if (length+penPosition.getX()>=board[0].length+1)
+        {
+            penPosition.setX(length+board[0].length);
+            System.out.println("The value is not valid. Try Again!");
+
         } else
             for (int i = 0; i < length; i++) {
 
@@ -118,37 +163,6 @@ public class TurtleGraphics {
                 board[this.penPosition.getX()][this.penPosition.getY()] = penChar;
 
 
-            }
-
-
-    }
-
-    public void movePenLeft(int length) {
-
-        if (penPosition.getY() > board[0].length) {
-            penPosition.setY(0);
-        } else
-            for (int i = 0; i < length; i++) {
-
-                board[penPosition.getX()][penPosition.getY()] = colouredCellChar;
-
-                penPosition.setY((penPosition.getY() - 1));
-                board[this.penPosition.getX()][this.penPosition.getY()] = penChar;
-
-            }
-
-
-    }
-
-    public void movePenRight(int length) {
-        if (penPosition.getY() > board[0].length) {
-            penPosition.setY(0);
-        } else
-            for (int i = 0; i < length; i++) {
-                board[penPosition.getX()][penPosition.getY()] = colouredCellChar;
-
-                penPosition.setY(penPosition.getY() + 1);
-                board[this.penPosition.getX()][this.penPosition.getY()] = penChar;
             }
 
 
@@ -166,57 +180,58 @@ public class TurtleGraphics {
     }
 
 
-    public void setPenPosition(Position penPosition) {
-
-        this.penPosition = penPosition;
-        board[this.penPosition.getX()][this.penPosition.getY()] = penChar;
-
-    }
+//    public void setPenPosition(Position penPosition) {
+//
+//        this.penPosition = penPosition;
+//        board[this.penPosition.getX()][this.penPosition.getY()] = penChar;
+//
+//    }
 }
-         class Position {    //inner class  /// maybe static?
-        //  @Getter
-        //   @Setter
-        private int x;
-        //   @Getter
-        //   @Setter
 
-        public void setX(int x) {
-            this.x = x;
-        }
+class Position {    //inner class  /// maybe static?
+    //  @Getter
+    //   @Setter
+    private int x;
+    //   @Getter
+    //   @Setter
 
-        //   @Getter
-        //   @Setter
-        public void setY(int y) {
-            this.y = y;
-        }
-
-        private int y;
-
-        //   @Getter
-        //   @Setter
-        Position() {
-
-            this.x = 0;
-            this.y = 0;
-        }
-
-
-        Position(int x, int y) {
-            if (x <= 0) this.x = 0;
-            else
-                this.x = x;
-            if (y <= 0) this.y = 0;
-            else
-                this.y = y;
-        }
-
-        public int getX() {
-            return x;
-        }
-
-        public int getY() {
-            return y;
-        }
-
-
+    public void setX(int x) {
+        this.x = x;
     }
+
+    //   @Getter
+    //   @Setter
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    private int y;
+
+    //   @Getter
+    //   @Setter
+    Position() {
+
+        this.x = 0;
+        this.y = 0;
+    }
+
+
+    Position(int x, int y) {
+        if (x <= 0) this.x = 0;
+        else
+            this.x = x;
+        if (y <= 0) this.y = 0;
+        else
+            this.y = y;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+
+}

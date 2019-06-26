@@ -1,4 +1,4 @@
-package com.sperasoft.mood.javaforqa.TurtleGraphics;
+package com.sperasoft.mood.javaforqa.task2.TurtleGraphics;
 
 
 import java.util.Scanner;
@@ -20,16 +20,16 @@ public class TurtleGraphicsDemo {
 
         System.out.println("start pen position: ");
         System.out.println("x: ");
-        int x = in.nextInt();
-        System.out.println("y: ");
         int y = in.nextInt();
+        System.out.println("y: ");
+        int x= in.nextInt();
 
         TurtleGraphics turtleGraphics = new TurtleGraphics(width, height, x, y);
 
         turtleGraphics.showBoard();
 
         System.out.println(" If you print u+number of dots it moves up \n If you print d+number of dots it moves down \n If you print r+number of dots it moves right  \n If you print l+number of dots it down");
-
+        System.out.println("To clear the board print c");
         System.out.println("please write the command");
 
         String line = sc.nextLine();
