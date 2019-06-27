@@ -1,11 +1,10 @@
-package com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice1and2;
+package com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice1and2.Practice1And2;
 
 
 
-import com.sperasoft.mood.javaforqa.task3And4.inheritance.Circle;
+import com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice1and2.Practice1And2.Pair;
 import com.sperasoft.mood.javaforqa.task3And4.inheritance.RectangleShape;
 import com.sperasoft.mood.javaforqa.task3And4.inheritance.Shape;
-import com.sperasoft.mood.javaforqa.task3And4.inheritance.SquareShape;
 
 
 public class PairDemo {

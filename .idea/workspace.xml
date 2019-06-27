@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="047adfd0-0716-4467-8fb1-280f45a36c07" name="Default Changelist" comment="Merge branch 'dev' of https://github.com/iMaksimkin/Java_for_automation into dev&#10;&#10;# Conflicts:&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Circle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/CircleCylinderDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/CircleShape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Cylinder.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Math1.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/MathDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Rectangle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Shape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/ShapeDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Square.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Circle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/CircleCylinderDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Cylinder.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Math1.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/MathDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Rectangle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Shape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Square.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Circle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/CircleCylinderDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/CustomMathUtil.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Cylinder.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/MathDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/RectangleShape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Shape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/SquareShape.java">
+    <list default="true" id="047adfd0-0716-4467-8fb1-280f45a36c07" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Practice4/DemoPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Practice4/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/PairDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/PairDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/PairDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphics$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphics$Direction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/PairDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/PairDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Practice1And2/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/PairDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Practice1And2/PairDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphicsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphicsDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,31 +24,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="com.sperasoft.mood.im" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Pair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Shape.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
+            <state relative-caret-position="272">
+              <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,28 +42,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/objects/Dog.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/HashSetDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-373">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/objects/DogsDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/QueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/PairDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/objects/ClockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+            <state relative-caret-position="187">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/objects/Clock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Practice4/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
+              <folding>
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/ArrayListDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -82,17 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphicsDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task1/fundamential/FindMinimum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -121,8 +132,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -132,8 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/objects1/Book.java" />
-        <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/objects1/Author.java" />
         <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/objects1/Dog.java" />
         <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/objects1/DogsDemo.java" />
         <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/inheritance/CylinderDemo.java" />
@@ -180,8 +189,10 @@
         <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Shape.java" />
         <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Pair.java" />
         <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Circle.java" />
-        <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphicsDemo.java" />
         <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/PairDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphicsDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Practice4/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Practice4/DemoPerson.java" />
         <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphics.java" />
       </list>
     </option>
@@ -198,6 +209,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,6 +263,15 @@
               <item name="com.sperasoft.mood.im" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javaforqa" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="TurtleGraphics" type="462c0819:PsiDirectoryNode" />
+              <item name="TurtleGraphics.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="com.sperasoft.mood.im" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.sperasoft.mood.im" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javaforqa" type="462c0819:PsiDirectoryNode" />
               <item name="task3And4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,14 +295,29 @@
               <item name="com.sperasoft.mood.im" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javaforqa" type="462c0819:PsiDirectoryNode" />
-              <item name="Practice1and2" type="462c0819:PsiDirectoryNode" />
+              <item name="GenericsAndCollections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.sperasoft.mood.im" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.sperasoft.mood.im" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javaforqa" type="462c0819:PsiDirectoryNode" />
+              <item name="GenericsAndCollections" type="462c0819:PsiDirectoryNode" />
+              <item name="Practice3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.sperasoft.mood.im" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.sperasoft.mood.im" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javaforqa" type="462c0819:PsiDirectoryNode" />
+              <item name="GenericsAndCollections" type="462c0819:PsiDirectoryNode" />
+              <item name="Practice4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,7 +326,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -305,12 +341,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.TurtleGraphicsDemo (1)">
-    <configuration name="MovableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sperasoft.mood.javaforqa.Task3.innerClassesAndInterfaces.MovableDemo" />
+    <configuration name="DemoPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice1and2.Practice4.DemoPerson" />
       <module name="Test Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sperasoft.mood.javaforqa.Task3.innerClassesAndInterfaces.*" />
+          <option name="PATTERN" value="com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice1and2.Practice4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,11 +355,11 @@
       </method>
     </configuration>
     <configuration name="PairDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice1and2.PairDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice1and2.Practice1And2.PairDemo" />
       <module name="Test Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice1and2.*" />
+          <option name="PATTERN" value="com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice1and2.Practice1And2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,10 +409,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TurtleGraphicsDemo (1)" />
+        <item itemvalue="Application.DemoPerson" />
         <item itemvalue="Application.PairDemo" />
         <item itemvalue="Application.ShapeDemo" />
         <item itemvalue="Application.TurtleGraphicsDemo" />
-        <item itemvalue="Application.MovableDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561371761802</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Turtle complete">
+      <created>1561548664530</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561548664530</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -440,9 +483,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2217484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -451,7 +493,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42795232" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42795232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,20 +556,11 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="not last" />
     <MESSAGE value="Merge branch 'dev' of https://github.com/iMaksimkin/Java_for_automation into dev&#10;&#10;# Conflicts:&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Circle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/CircleCylinderDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/CircleShape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Cylinder.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Math1.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/MathDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Rectangle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Shape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/ShapeDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Square.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Circle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/CircleCylinderDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Cylinder.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Math1.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/MathDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Rectangle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Shape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Square.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Circle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/CircleCylinderDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/CustomMathUtil.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Cylinder.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/MathDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/RectangleShape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Shape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/SquareShape.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'dev' of https://github.com/iMaksimkin/Java_for_automation into dev&#10;&#10;# Conflicts:&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Circle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/CircleCylinderDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/CircleShape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Cylinder.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Math1.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/MathDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Rectangle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Shape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/ShapeDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/Task3/inheritance/Square.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Circle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/CircleCylinderDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Cylinder.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Math1.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/MathDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Rectangle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Shape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/inheritance/Square.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Circle.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/CircleCylinderDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/CustomMathUtil.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Cylinder.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/MathDemo.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/RectangleShape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Shape.java&#10;#&#9;src/com/sperasoft/mood/javaforqa/task3And4/inheritance/SquareShape.java" />
+    <MESSAGE value="Turtle complite" />
+    <MESSAGE value="Turtle complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Turtle complete" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/inheritance/Truck.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/inheritance/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/objects1/ClockDemo.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task3/inheritance/DemoShape.java" />
-    <entry file="jar://C:/dev_tools/java/jdk1.8.0_212/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1925">
-          <caret line="642" column="25" selection-start-line="642" selection-start-column="25" selection-end-line="642" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task3/inheritance/Math1.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task3/inheritance/MathDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task3/inheritance/Rectangle.java" />
@@ -552,20 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/objects/Clock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/objects/ClockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -631,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task3And4/inheritance/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -652,10 +664,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task3And4/Minesweeper/Minesweeper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/Position.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Practice1And2/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/objects/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/objects/DogsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Practice1And2/PairDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Practice4/DemoPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Practice4/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
+          <folding>
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/ArrayListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -666,47 +725,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#964#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphicsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="289">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/PairDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/objects/ClockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        <state relative-caret-position="187">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/objects/DogsDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/objects/Clock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/objects/Dog.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/HashSetDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-373">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/QueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task3And4/Minesweeper/Minesweeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
+        <state relative-caret-position="272">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

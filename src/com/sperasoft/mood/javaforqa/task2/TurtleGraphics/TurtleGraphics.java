@@ -6,6 +6,7 @@ import jdk.nashorn.internal.objects.annotations.Setter;
 
 //TODO penPosition and array bounds
 public class TurtleGraphics {
+    private static final char[][] DEFAULT_BOARD = new char[6][5];
     public enum Direction {
         UP("u"),
         DOWN("d"),
@@ -68,14 +69,14 @@ public class TurtleGraphics {
         if (width > 0 && height > 0) {
             this.board = new char[width + 1][height];
         } else {
-            this.board = new char[6][5];
-            System.out.println("incoorect size! ");
+            this.board = DEFAULT_BOARD;
+            System.out.println("incoorect size! Default board");
         }
         if (x >= 0 && y >= 0 && x <= width && y <= height) {
             this.penPosition = new Position(x, y);
         } else {
             this.penPosition = new Position();
-            System.out.println("incoorect position! ");
+            System.out.println("incoorect position! Default Position ");
         }
         clearBoard();
         board[this.penPosition.getX()][this.penPosition.getY()] = penChar;
