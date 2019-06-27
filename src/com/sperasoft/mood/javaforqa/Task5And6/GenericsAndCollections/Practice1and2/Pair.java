@@ -1,4 +1,4 @@
-package com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice1and2.Practice1And2;
+package com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice1and2;
 
 
 import com.sperasoft.mood.javaforqa.task3And4.inheritance.Shape;
