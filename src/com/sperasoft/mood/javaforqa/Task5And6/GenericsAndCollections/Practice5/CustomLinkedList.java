@@ -5,27 +5,28 @@ package com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice5;
 
 public class CustomLinkedList<T> {
 
-    private Object<T> next;
-    private Object<T> previous;
+    private Obj<T> next;
+    private Obj<T> previous;
 
     private int size;
 
 
     public CustomLinkedList() {
-        next = new Object<>(null, null, null);
+        next = new Obj<>(null, null, null);
         previous = next;
 
 
     }
 
-    private static class Object<T> {
+    private static class Obj<T> {
 
-        T object;
-        Object<T> prev = null;
-        Object<T> next = null;
 
-        public Object(T object, Object<T> prev, Object<T> next) {
-            this.object = object;
+        T obj;
+        Obj<T> prev = null;
+        Obj<T> next = null;
+
+        public Obj(T object, Obj<T> prev, Obj<T> next) {
+            this.obj = object;
             this.prev = prev;
             this.next = next;
         }
@@ -36,23 +37,26 @@ public class CustomLinkedList<T> {
         return size == 0;
     }
 
-    public void add(T object) {
-        if (object == null) {
+
+
+    public void add(T obj) {
+        if (obj == null) {
             throw new IllegalStateException("U can't add Null obj");
         } else {
-            Object<T> prev = previous;
-            previous = new Object<T>(object, prev, null);
+            Obj<T> prev = previous;
+            previous = new Obj<T>(obj, prev, null);
             prev.next = previous;
             size++;
+//            System.out.println(previous.toString() + " " + next + " " + previous.next.toString());
         }
 
     }
 
-    public Object<T> remove(T object) {
+    public Obj<T> remove(T object) {
         if (isEmpty()) {
             throw new NullPointerException("U can remove nothing");
         } else {
-            Object<T> remove = previous;
+            Obj<T> remove = previous;
             previous = previous.prev;
             previous.next = null;
             size--;
@@ -61,37 +65,64 @@ public class CustomLinkedList<T> {
     }
 
     //TODO reverse list
-    public Object<T> reverseList() {
+    public void reverseList() {
         if (isEmpty()) {
             throw new NullPointerException("U can reverse nothing");
         }
-previous=next.next;
-        Object<T> current = previous;
-        Object<T> before = null;
-        Object<T> after = null;
+        else {
+           Obj<T> current = previous;
+            Obj<T> prev = null;
+            Obj<T> after;
 
-        while (current != null) {
-            after = current.next;
 
-            current.next = before;
-            before = current;
 
-            current = after;
-
+            while (current != null) {
+                after = current.next;
+                current.next = prev;
+                prev = current;
+                current = after;
+            } previous = prev;
         }
 
-        next = before;
-        return after;
-
-
     }
+//    Node previous = null;
+//    Node current = this.head;
+//    Node next;
+//        while (current != null) {
+//        next = current.next;
+//        current.next = previous;
+//        previous = current;
+//        current = next;
+//    }
+//        this.head = previous;
+
+//previous=next.next;
+//        Object<T> current = previous;
+//        Object<T> before = null;
+//        Object<T> after = null;
+//
+//        while (current != null) {
+//            after = current.next;
+//
+//            current.next = before;
+//            before = current;
+//
+//            current = after;
+//
+//        }
+//
+//        next = before;
+//        return after;
+//
+//
+//    }
 
 
     public void print() {
-        Object<T> cur = next;
+        Obj<T> cur = next;
         while (cur.next != null) {
             cur = cur.next;
-            System.out.println(cur.object + " ");
+            System.out.println(cur.obj + " ");
         }
     }
 }
