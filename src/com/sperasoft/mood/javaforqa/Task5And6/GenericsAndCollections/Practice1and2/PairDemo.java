@@ -24,7 +24,7 @@ public class PairDemo {
         String str2 = "square";
         String str3 = "rectangle";
 
-        System.out.println("First string " + str1);
+        System.out.println("FirstExc string " + str1);
         System.out.println("2nd string " + str2);
         System.out.println("3rd string " + str3);
 

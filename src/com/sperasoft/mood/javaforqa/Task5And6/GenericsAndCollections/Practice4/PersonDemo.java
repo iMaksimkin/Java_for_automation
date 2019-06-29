@@ -46,7 +46,7 @@ public class PersonDemo {
         wPersons.add(new Person("Shisha", 50));
         wPersons.add(new Person("Erica", 20));
         wPersons.add(new Person("Alla", 64));
-        System.out.println("Second list with woman names");
+        System.out.println("SecondExc list with woman names");
         for (Person p : wPersons) {
 
             System.out.print(p.getName() + " " + p.getAge() + "\n");
@@ -60,7 +60,7 @@ public class PersonDemo {
 
         }
         System.out.println();
-        System.out.print("Is First equals Second: ");
+        System.out.print("Is FirstExc equals SecondExc: ");
 
 
             System.out.print(isEquals(persons,wPersons));
