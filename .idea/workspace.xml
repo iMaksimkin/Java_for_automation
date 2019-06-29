@@ -1,25 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0c83a76-39ab-4570-b070-c514a2c2793c" name="Default" comment="gitignore">
+    <list default="true" id="c0c83a76-39ab-4570-b070-c514a2c2793c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Test Project.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/META-INF/Test Project.kotlin_module" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/ArrayListDemo.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/HashMapDemo.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/HashSetDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/QueueDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice4/Person$NameComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice4/Person.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice4/PersonDemo.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/ArrayListDemo.class" afterPath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/ArrayListDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/QueueDemo.class" afterPath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/QueueDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice4/Person$NameComparator.class" afterPath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice4/Person$NameComparator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice4/Person.class" afterPath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice4/Person.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Pair.java" afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Pair.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/PairDemo.java" afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/PairDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/ArrayListDemo.java" afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/ArrayListDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/HashMapDemo.java" afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/HashMapDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/HashSetDemo.java" afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/HashSetDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/QueueDemo.java" afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/QueueDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice4/Person.java" afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice4/Person.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice4/PersonDemo.java" afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice4/PersonDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice5/CustomLinkedList.java" afterPath="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice5/CustomLinkedList.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task1/fundamential/ArraySearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task1/fundamential/ArraySort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task1/fundamential/CountStringElements.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task1/fundamential/FindMinimum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task1/fundamential/TowersOfHanoi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task1/fundamential/alternativeVarFirstTask/BaseCountMin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task1/fundamential/alternativeVarFirstTask/CountMin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/Position.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphics$Direction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphics.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/TurtleGraphics/TurtleGraphicsDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/objects/Author.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/objects/Book.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/objects/BookDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/objects/Clock.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/objects/ClockDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/objects/Dog$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/objects/Dog$Size$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/objects/Dog$Size.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/objects/Dog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task2/objects/DogsDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/Circle$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/Circle$Colour$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/Circle$Colour$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/Circle$Colour$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/Circle$Colour$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/Circle$Colour.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/Circle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/CircleCylinderDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/CircleShape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/CustomMathUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/Cylinder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/MathDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/RectangleShape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/Shape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/ShapeDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/inheritance/SquareShape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/movableinterface/IMovable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/movableinterface/MovableDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/movableinterface/MovablePoint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Test Project/com/sperasoft/mood/javaforqa/task3And4/movableinterface/MovableRectangle.class" afterPath="" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +96,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PersonDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice4/PersonDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -80,6 +118,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1864">
+              <caret line="1302" column="10" lean-forward="false" selection-start-line="1302" selection-start-column="10" selection-end-line="1302" selection-end-column="10" />
+              <folding>
+                <marker date="1561795185349" expanded="true" signature="84179:84196" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Pair.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Pair.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,16 +145,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashSetDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice3/HashSetDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-151">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -150,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/Pair.java" />
         <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice1and2/PairDemo.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -158,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice4/PersonDemo.java" />
         <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice5/CustomLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice4/Person.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -851,6 +891,14 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="gitignore">
+      <created>1561794776323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561794776323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -875,10 +923,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2602118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1137,17 +1185,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4992">
-          <caret line="1213" column="10" lean-forward="false" selection-start-line="1213" selection-start-column="10" selection-end-line="1213" selection-end-column="10" />
-          <folding>
-            <marker date="1561794700678" expanded="true" signature="73167:73184" ph="..." />
-            <marker date="1561794700678" expanded="true" signature="73167:73215" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sperasoft/mood/javaforqa/Task5And6/GenericsAndCollections/Practice5/CustomLinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -1160,14 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1247,6 +1276,24 @@
           <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding>
             <element signature="e#324#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1864">
+          <caret line="1302" column="10" lean-forward="false" selection-start-line="1302" selection-start-column="10" selection-end-line="1302" selection-end-column="10" />
+          <folding>
+            <marker date="1561795185349" expanded="true" signature="84179:84196" ph="..." />
           </folding>
         </state>
       </provider>
