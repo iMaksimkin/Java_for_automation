@@ -1,7 +1,7 @@
 package com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice1and2;
 
 
-import com.sperasoft.mood.javaforqa.task3And4.inheritance.Shape;
+
 
 public class Pair <T1, T2 >
 // or like this public class Pair <T1, T2 extends Shape>

@@ -2,54 +2,54 @@ package com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice5;
 
 public class CustomLinkedList<T> {
 
-    private Object<T> next;
-    private Object<T> previous;
+    private Obj<T> next;
+    private Obj<T> previous;
 
     private int size;
-
+    
 
     public CustomLinkedList() {
-        next = new Object<>(null, null, null);
+        next = new Obj<>(null, null, null);
         previous = next;
 
 
     }
 
-    private static class Object<T> {
+    private static class Obj<T> {
 
-        T object;
-        Object<T> prev = null;
-        Object<T> next = null;
+        T obj;
+        Obj<T> prev = null;
+        Obj<T> next = null;
 
-        public Object(T object, Object<T> prev, Object<T> next) {
-            this.object = object;
+        public Obj(T object, Obj<T> prev, Obj<T> next) {
+            this.obj = object;
             this.prev = prev;
             this.next = next;
         }
 
     }
 
-    public boolean isEmpty() {
+    private boolean isEmpty() {
         return size == 0;
     }
 
-    public void add(T object) {
-        if (object == null) {
+    public void add(T obj) {
+        if (obj == null) {
             throw new IllegalStateException("U can't add Null obj");
         } else {
-            Object<T> prev = previous;
-            previous = new Object<T>(object, prev, null);
+            Obj<T> prev = previous;
+            previous = new Obj<T>(obj, prev, null);
             prev.next = previous;
             size++;
         }
 
     }
 
-    public Object<T> remove(T object) {
+    public Obj<T> remove(T obj) {
         if (isEmpty()) {
             throw new NullPointerException("U can remove nothing");
         } else {
-            Object<T> remove = previous;
+            Obj<T> remove = previous;
             previous = previous.prev;
             previous.next = null;
             size--;
@@ -63,9 +63,9 @@ public class CustomLinkedList<T> {
             throw new NullPointerException("U can reverse nothing");
         }
 
-        Object<T> current =next.next;
-        Object<T> before = null;
-        Object<T> next1 =current.next;
+        Obj<T> current =next.next;
+        Obj<T> before = null;
+        Obj<T> next1 =current.next;
         while(current.next != null) {
         current.next =before;
         before = current;
@@ -80,10 +80,10 @@ public class CustomLinkedList<T> {
 
 
     public void print() {
-        Object<T> cur = next;
+        Obj<T> cur = next;
         while (cur.next != null) {
             cur = cur.next;
-            System.out.println(cur.object + " ");
+            System.out.println(cur.obj + " ");
         }
     }
 }

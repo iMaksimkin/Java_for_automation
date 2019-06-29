@@ -10,7 +10,8 @@ public class PairDemo {
     public static void main(String[] args) {
 
 
-        Pair<String, RectangleShape> objectsPair = new Pair<String, RectangleShape>("Simple Shape named", new RectangleShape("Blue", 4, 3));
+        Pair<String, RectangleShape> objectsPair;
+        objectsPair = new Pair<String, RectangleShape>("Simple Shape named", new RectangleShape("Blue", 4, 3));
 
         String name = objectsPair.getFirst();
 
@@ -19,9 +20,9 @@ public class PairDemo {
         System.out.println(name + " " + rectangleShape);
 
 
-        String str1 = new String("square");
-        String str2 = new String("square");
-        String str3 = new String("rectangle");
+        String str1 = "square";
+        String str2 = "square";
+        String str3 = "rectangle";
 
         System.out.println("First string " + str1);
         System.out.println("2nd string " + str2);
