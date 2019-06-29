@@ -15,17 +15,19 @@ public class CustomLinkedListDemo {
             myList1.add(new Person("Dima", 13));
             myList1.add(new Person("Dasha", 113));
             myList1.add(new Person("Misha", 44));
-
-                      System.out.println("My List");
+          
+            System.out.println("My List");
             myList1.print();
-
+            myList1.reverseList();
+            System.out.println("Reverse List");
+            myList1.print();
             myList1.remove(new Person("Misha", 44));
             System.out.println("List with deleted Person");
             myList1.print();
 
-            System.out.println("Reverse List");
-            myList1.print();
-            myList1.reverseList();
+
+
+
 
 
     }

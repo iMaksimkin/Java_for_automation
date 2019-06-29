@@ -1,32 +1,28 @@
 package com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice5;
 
-
-
-
 public class CustomLinkedList<T> {
 
-    private Obj<T> next;
-    private Obj<T> previous;
+    private Object<T> next;
+    private Object<T> previous;
 
     private int size;
 
 
     public CustomLinkedList() {
-        next = new Obj<>(null, null, null);
+        next = new Object<>(null, null, null);
         previous = next;
 
 
     }
 
-    private static class Obj<T> {
+    private static class Object<T> {
 
+        T object;
+        Object<T> prev = null;
+        Object<T> next = null;
 
-        T obj;
-        Obj<T> prev = null;
-        Obj<T> next = null;
-
-        public Obj(T object, Obj<T> prev, Obj<T> next) {
-            this.obj = object;
+        public Object(T object, Object<T> prev, Object<T> next) {
+            this.object = object;
             this.prev = prev;
             this.next = next;
         }
@@ -37,26 +33,23 @@ public class CustomLinkedList<T> {
         return size == 0;
     }
 
-
-
-    public void add(T obj) {
-        if (obj == null) {
+    public void add(T object) {
+        if (object == null) {
             throw new IllegalStateException("U can't add Null obj");
         } else {
-            Obj<T> prev = previous;
-            previous = new Obj<T>(obj, prev, null);
+            Object<T> prev = previous;
+            previous = new Object<T>(object, prev, null);
             prev.next = previous;
             size++;
-//            System.out.println(previous.toString() + " " + next + " " + previous.next.toString());
         }
 
     }
 
-    public Obj<T> remove(T object) {
+    public Object<T> remove(T object) {
         if (isEmpty()) {
             throw new NullPointerException("U can remove nothing");
         } else {
-            Obj<T> remove = previous;
+            Object<T> remove = previous;
             previous = previous.prev;
             previous.next = null;
             size--;
@@ -69,60 +62,28 @@ public class CustomLinkedList<T> {
         if (isEmpty()) {
             throw new NullPointerException("U can reverse nothing");
         }
-        else {
-           Obj<T> current = previous;
-            Obj<T> prev = null;
-            Obj<T> after;
 
-
-
-            while (current != null) {
-                after = current.next;
-                current.next = prev;
-                prev = current;
-                current = after;
-            } previous = prev;
-        }
-
+        Object<T> current =next.next;
+        Object<T> before = null;
+        Object<T> next1 =current.next;
+        while(current.next != null) {
+        current.next =before;
+        before = current;
+        current = next1;
+        next1 = current.next;
     }
-//    Node previous = null;
-//    Node current = this.head;
-//    Node next;
-//        while (current != null) {
-//        next = current.next;
-//        current.next = previous;
-//        previous = current;
-//        current = next;
-//    }
-//        this.head = previous;
+    current.next = before;
+   next.next = current;
+}
 
-//previous=next.next;
-//        Object<T> current = previous;
-//        Object<T> before = null;
-//        Object<T> after = null;
-//
-//        while (current != null) {
-//            after = current.next;
-//
-//            current.next = before;
-//            before = current;
-//
-//            current = after;
-//
-//        }
-//
-//        next = before;
-//        return after;
-//
-//
-//    }
+
 
 
     public void print() {
-        Obj<T> cur = next;
+        Object<T> cur = next;
         while (cur.next != null) {
             cur = cur.next;
-            System.out.println(cur.obj + " ");
+            System.out.println(cur.object + " ");
         }
     }
 }
