@@ -1,32 +1,36 @@
 package com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice5;
 
-import java.io.Console;
 
-/**
- * Created by резерв on 27.06.2019.
- */
+
+import com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice4.Person;
+
 public class CustomLinkedListDemo {
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Add First:");
-        LinkedList myList1 = new LinkedList();
+    public static void main(String[] args) {
 
-        myList1.AddFirst("Hello");
-        myList1.AddFirst("Magical");
-        myList1.AddFirst("World");
-        myList1.printAllNodes();
 
-        Console.WriteLine();
+        {
 
-        Console.WriteLine("Add Last:");
-        CustomLinkedList.LinkedList myList2 = new CustomLinkedList.LinkedList();
+            CustomLinkedList<Person> myList1 = new CustomLinkedList<Person>();
 
-        myList2.AddLast("Hello");
-        myList2.AddLast("Magical");
-        myList2.AddLast("World");
-        myList2.printAllNodes();
+            myList1.add(new Person("Dima", 13));
+            myList1.add(new Person("Dasha", 113));
+            myList1.add(new Person("Misha", 44));
+          
+            System.out.println("My List");
+            myList1.print();
+            myList1.reverseList();
+            System.out.println("Reverse List");
+            myList1.print();
+            myList1.remove(new Person("Misha", 44));
+            System.out.println("List with deleted Person");
+            myList1.print();
 
-        Console.ReadLine();
+
+
+
+
+
     }
-}
+}}
+
 

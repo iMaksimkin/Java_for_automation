@@ -1,7 +1,5 @@
 package com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice5;
 
-
-<<<<<<< Updated upstream
 public class CustomLinkedList<T> {
 
     private Object<T> next;
@@ -17,7 +15,7 @@ public class CustomLinkedList<T> {
 
     }
 
-    public static class Object<T> {
+    private static class Object<T> {
 
         T object;
         Object<T> prev = null;
@@ -40,83 +38,56 @@ public class CustomLinkedList<T> {
             throw new IllegalStateException("U can't add Null obj");
         } else {
             Object<T> prev = previous;
-            next = new Object<T>(object, prev, null);
+            previous = new Object<T>(object, prev, null);
             prev.next = previous;
             size++;
         }
+
     }
 
-    public Object<T> remove() {
+    public Object<T> remove(T object) {
         if (isEmpty()) {
             throw new NullPointerException("U can remove nothing");
         } else {
             Object<T> remove = previous;
-            previous.prev = previous;
+            previous = previous.prev;
             previous.next = null;
             size--;
             return remove;
         }
     }
 
+    //TODO reverse list
+    public void reverseList() {
+        if (isEmpty()) {
+            throw new NullPointerException("U can reverse nothing");
+        }
 
+        Object<T> current =next.next;
+        Object<T> before = null;
+        Object<T> next1 =current.next;
+        while(current.next != null) {
+        current.next =before;
+        before = current;
+        current = next1;
+        next1 = current.next;
+    }
+    current.next = before;
+   next.next = current;
 }
 
 
-=======
-public class CustomLinkedList {
-    public class Node
-    {
-        public Node next;
-        public Object data;
-    }
 
-    public class LinkedList
-    {
-        private Node head;
 
-        public void printAllNodes()
-        {
-            Node current = head;
-            while (current != null)
-            {
-                Console.WriteLine(current.data);
-                current = current.next;
-            }
-        }
-
-        public void AddFirst(Object data)
-        {
-            Node toAdd = new Node();
-
-            toAdd.data = data;
-            toAdd.next = head;
-
-            head = toAdd;
-        }
-
-        public void AddLast(Object data)
-        {
-            if (head == null)
-            {
-                head = new Node();
-
-                head.data = data;
-                head.next = null;
-            }
-            else
-            {
-                Node toAdd = new Node();
-                toAdd.data = data;
-
-                Node current = head;
-                while (current.next != null)
-                {
-                    current = current.next;
-                }
-
-                current.next = toAdd;
-            }
+    public void print() {
+        Object<T> cur = next;
+        while (cur.next != null) {
+            cur = cur.next;
+            System.out.println(cur.object + " ");
         }
     }
 }
->>>>>>> Stashed changes
+
+
+
+
