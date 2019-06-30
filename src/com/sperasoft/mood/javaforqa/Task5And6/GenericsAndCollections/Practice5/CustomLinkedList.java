@@ -2,32 +2,20 @@ package com.sperasoft.mood.javaforqa.Task5And6.GenericsAndCollections.Practice5;
 
 public class CustomLinkedList<T> {
 
-    private Obj<T> next;
-    private Obj<T> previous;
+    private Obj<T> last = null;
+    private Obj<T> previous = null;
 
     private int size;
-    
+
 
     public CustomLinkedList() {
-        next = new Obj<>(null, null, null);
-        previous = next;
 
 
-    }
-
-    private static class Obj<T> {
-
-        T obj;
-        Obj<T> prev = null;
-        Obj<T> next = null;
-
-        public Obj(T object, Obj<T> prev, Obj<T> next) {
-            this.obj = object;
-            this.prev = prev;
-            this.next = next;
-        }
+        previous = new Obj<>(null, null, null);
+        last = previous;
 
     }
+
 
     private boolean isEmpty() {
         return size == 0;
@@ -45,48 +33,96 @@ public class CustomLinkedList<T> {
 
     }
 
-    public Obj<T> remove(T obj) {
-        if (isEmpty()) {
-            throw new NullPointerException("U can remove nothing");
+
+    public void remove(int index) {
+        if (index == 0) {
+            last = last.next;
         } else {
-            Obj<T> remove = previous;
-            previous = previous.prev;
-            previous.next = null;
-            size--;
-            return remove;
+            Obj current = last;
+            Obj before = null;
+            for (int i = 0; i < index; i++) {
+                current = current.next;
+            }
+            before = current.next;
+            current.next = before.next;
         }
     }
 
-    //TODO reverse list
+
+    class Iterator {
+        Obj iterator;
+
+        public Iterator() {
+            this.iterator = previous;
+        }
+
+        public boolean hasNext() {
+            return iterator.prev.next != null;
+        }
+
+        public void next() {
+            iterator = iterator.next;
+        }
+    }
+
+    public void printWithIterator() {
+
+        Iterator iterator = this.new Iterator();
+        for (int i = 1; i < size; i++) {
+            System.out.println(iterator.iterator.object);
+            iterator.next();
+        }
+    }
+
+
     public void reverseList() {
         if (isEmpty()) {
             throw new NullPointerException("U can reverse nothing");
         }
 
-        Obj<T> current =next.next;
+        Obj<T> current = last.next;
         Obj<T> before = null;
-        Obj<T> next1 =current.next;
-        while(current.next != null) {
-        current.next =before;
-        before = current;
-        current = next1;
-        next1 = current.next;
+        Obj<T> after = current.next;
+        while (current.next != null) {
+            current.next = before;
+            before = current;
+            current = after;
+            after = current.next;
+        }
+        current.next = before;
+        last.next = current;
     }
-    current.next = before;
-   next.next = current;
-}
-
-
 
 
     public void print() {
-        Obj<T> cur = next;
+        Obj<T> cur = last;
         while (cur.next != null) {
             cur = cur.next;
-            System.out.println(cur.obj + " ");
+            System.out.println(cur.object + " ");
         }
     }
 }
+//    public void remove(T remove) {
+////        if (isEmpty()) {
+////            throw new NullPointerException("U can remove nothing");
+////        }   else (
+//
+//        Obj<T> curr = previous;
+//
+//        curr = curr.prev;
+//        for (int i = 0; i < size; i++) {
+//            curr = curr.next;
+//            if (curr.object.equals(remove)) {
+//                curr.prev.next = curr.next;
+//                curr.next.prev = curr.prev;
+//
+//
+//                size--;
+//                break;
+//            }
+//        }
+    //  }
+
 
 
 
