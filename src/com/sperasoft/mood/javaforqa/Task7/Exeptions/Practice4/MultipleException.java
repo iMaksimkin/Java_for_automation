@@ -11,12 +11,6 @@ public class MultipleException {
 
 
 
-    public static void CaughtMultipleExeption(int n) throws CustomException, SecondCustomException, ThirdCustomException {
-        if (n < 0) throw new CustomException();
-        if (n == 0) throw new SecondCustomException();
-        if (n > 0) throw new ThirdCustomException();
-    }
-
     public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
@@ -24,8 +18,11 @@ public class MultipleException {
         System.out.println("Print Number: ");
         int n = s.nextInt();
         try {
-            CaughtMultipleExeption(n);
-        } catch (Exception e) {
+            if (n < 0) throw new CustomException();
+
+            if (n == 0) throw new SecondCustomException();
+            if (n > 0) throw new ThirdCustomException();
+        } catch (CustomException|SecondCustomException|ThirdCustomException e) {
             System.out.println(e.toString());
         }
         finally {
