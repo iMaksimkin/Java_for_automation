@@ -10,6 +10,14 @@ import java.util.Scanner;
 public class MultipleException {
 
 
+    public static void CaughtMultipleExeption(int n) throws CustomException, SecondCustomException, ThirdCustomException {
+
+        if (n < 0) throw new CustomException();
+
+        if (n == 0) throw new SecondCustomException();
+        if (n > 0) throw new ThirdCustomException();
+    }
+
 
     public static void main(String[] args) {
 
@@ -18,14 +26,10 @@ public class MultipleException {
         System.out.println("Print Number: ");
         int n = s.nextInt();
         try {
-            if (n < 0) throw new CustomException();
-
-            if (n == 0) throw new SecondCustomException();
-            if (n > 0) throw new ThirdCustomException();
-        } catch (CustomException|SecondCustomException|ThirdCustomException e) {
+            CaughtMultipleExeption(n);
+        } catch (CustomException | SecondCustomException | ThirdCustomException e) {
             System.out.println(e.toString());
-        }
-        finally {
+        } finally {
             System.out.println("Sorry. U lose :(");
         }
     }
