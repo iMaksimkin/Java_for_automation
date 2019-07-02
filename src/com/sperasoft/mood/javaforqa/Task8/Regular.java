@@ -22,7 +22,7 @@ public class Regular {
 
         Pattern pattern1 = Pattern.compile("\\s+");
         Matcher matcher1 = pattern1.matcher(secondStr);
-        System.out.println(pattern1.matcher(secondStr).replaceAll(" ").trim());
+        System.out.println(matcher1.replaceAll(" ").trim());
 
         System.out.println("Third Task");
         String thirdString = new String("password wword word Heeeeeeello");
