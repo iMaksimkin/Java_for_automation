@@ -1,6 +1,6 @@
 package com.sperasoft.mood.javaforqa.task2.objects;
 
-class Book {
+public class Book {
     private double price;
 
     private String title;
@@ -11,6 +11,18 @@ class Book {
         this.title = title;
         this.author = author;
         this.price = price;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public  Author getAuthor() {
+        return author;
+    }
+
+    public double getPrice() {
+        return price;
     }
 
     @Override
