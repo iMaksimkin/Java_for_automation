@@ -1,4 +1,4 @@
-package MineSweeper;
+package com.sperasoft.mood.javaforqa.task3And4.MineSweeper;
 
 import java.util.Scanner;
 
