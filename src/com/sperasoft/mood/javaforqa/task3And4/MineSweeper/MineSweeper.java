@@ -1,4 +1,4 @@
-package MineSweeper;
+package com.sperasoft.mood.javaforqa.task3And4.MineSweeper;
 
 public class MineSweeper {
 
@@ -11,12 +11,12 @@ public class MineSweeper {
     public static final char EMPTY = ' ';
     public Boolean isWin = false;
     public Boolean isEnd = false;
-    public static final int DEFAULT_SIZE = 7; // coming soon Default boar and num of mines if enter incorrect value
+    public static final int DEFAULT_SIZE = 7; // coming soon Default boar and num of mines if enter incorrect value // first version for board size 5 
 
     public MineSweeper(int size, int mine) {
-
-        board = createBoard(size + 2);
-        mineBoard = new char[size + 2][size + 2];
+        size += 2;                               // sorry for this. need to separate to boards in initiateBoard method. will do it as soon as possible 
+        board = createBoard(size);
+        mineBoard = new char[size][size];
         initiateBoard(mineBoard);
         generateMines(mine);
         findMineAround();
