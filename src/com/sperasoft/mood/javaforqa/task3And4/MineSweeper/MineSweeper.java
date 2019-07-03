@@ -76,8 +76,8 @@ public class MineSweeper {
             while (true) {
                 int x = 0;
                 int y = 0;
-                x = (int) (10 * Math.random());
-                y = (int) (10 * Math.random());
+                x = (int) (board.length * Math.random());
+                y = (int) ( board[0].length * Math.random());
                 if (x >= 1 && x <= board.length - 2 && y >= 1 && y <= board[0].length - 2) {
 
                     if (!(mineBoard[x][y] == MINE)) {
